@@ -1,0 +1,13 @@
+{
+  "name": "angular",
+  "private": true,
+  "scripts": {
+    "dev": "x",
+    "build": "y"
+  },
+  "dependencies": {
+    "@angular/core": "^20.3.0",
+    "@angular/ssr": "^20.3.0"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "cra",
+  "private": true,
+  "scripts": {
+    "dev": "x",
+    "build": "y"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-helmet-async": "^2.0.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://cra.example.org"
+}

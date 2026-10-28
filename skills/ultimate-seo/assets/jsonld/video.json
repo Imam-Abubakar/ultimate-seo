@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Video title",
+  "description": "What the video covers.",
+  "thumbnailUrl": [
+    "https://www.example.com/videos/thumb-1280x720.jpg"
+  ],
+  "uploadDate": "2026-04-01T08:00:00+00:00",
+  "duration": "PT4M30S",
+  "contentUrl": "https://www.example.com/videos/video.mp4",
+  "embedUrl": "https://www.youtube.com/embed/VIDEO_ID"
+}

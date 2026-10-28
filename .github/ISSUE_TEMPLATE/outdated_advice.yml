@@ -1,0 +1,24 @@
+name: Outdated or incorrect SEO advice
+description: Something in the references is no longer true
+labels: [accuracy]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: File and section
+      placeholder: references/structured-data.md, eligibility table
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What's wrong, and what's correct now?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Primary source
+      description: Google Search Central, schema.org, framework docs, crawler operator docs…
+    validations:
+      required: true

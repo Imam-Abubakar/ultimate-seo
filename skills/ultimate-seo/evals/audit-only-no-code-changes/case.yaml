@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: audit-only-no-code-changes
+expected_outcome: |
+  No source files are modified. The run detects Astro, audits the site from source and/or a build, and writes
+  ULTIMATE-SEO.md as an audit report plus prioritized roadmap that names the concrete problems in this project
+  (missing site config, no sitemap integration, no canonical/OG/description in the layout, relative image paths,
+  missing alt text) with the exact fix for each.
+context:
+  scaffold_script: place-files.sh

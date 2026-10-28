@@ -1,0 +1,13 @@
+{
+  "name": "gatsby",
+  "private": true,
+  "scripts": {
+    "dev": "x",
+    "build": "y"
+  },
+  "dependencies": {
+    "gatsby": "^5.14.0",
+    "react": "^18.0.0"
+  },
+  "devDependencies": {}
+}

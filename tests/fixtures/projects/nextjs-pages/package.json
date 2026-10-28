@@ -1,0 +1,14 @@
+{
+  "name": "nextjs-pages",
+  "private": true,
+  "scripts": {
+    "dev": "x",
+    "build": "y"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "next-seo": "^6.5.0"
+  },
+  "devDependencies": {}
+}

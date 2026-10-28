@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://www.example.com/blog/post-slug/#article",
+  "mainEntityOfPage": "https://www.example.com/blog/post-slug/",
+  "headline": "Post title as shown on the page",
+  "description": "The post's meta description.",
+  "image": [
+    "https://www.example.com/blog/post-slug/cover-1200x675.jpg"
+  ],
+  "datePublished": "2026-01-15T09:00:00+00:00",
+  "dateModified": "2026-02-01T12:30:00+00:00",
+  "author": {
+    "@type": "Person",
+    "name": "Author Name",
+    "url": "https://www.example.com/authors/author-name/"
+  },
+  "publisher": {
+    "@id": "https://www.example.com/#organization"
+  },
+  "inLanguage": "en"
+}

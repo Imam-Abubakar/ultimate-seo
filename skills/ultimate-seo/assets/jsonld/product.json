@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "https://www.example.com/products/sku-123/#product",
+  "name": "Product name",
+  "description": "Product description as shown on the page.",
+  "image": [
+    "https://www.example.com/images/sku-123-1x1.jpg",
+    "https://www.example.com/images/sku-123-4x3.jpg",
+    "https://www.example.com/images/sku-123-16x9.jpg"
+  ],
+  "sku": "SKU-123",
+  "gtin13": "0000000000000",
+  "brand": {
+    "@type": "Brand",
+    "name": "Brand name"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.example.com/products/sku-123/",
+    "price": "49.00",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 1,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 2,
+          "maxValue": 5,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 30,
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnFees": "https://schema.org/FreeReturn"
+    }
+  },
+  "_comment": "Only add aggregateRating/review if real, visible customer reviews exist on this page. Remove gtin13 if you don't have one. Delete this _comment key."
+}

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+dist/
+*.zip
+.venv/
+node_modules/
+skills/ultimate-seo/evals/results/
+*-workspace/

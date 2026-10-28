@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "dateModified": "2026-03-01T00:00:00+00:00",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://www.example.com/#person",
+    "name": "Full Name",
+    "url": "https://www.example.com/",
+    "jobTitle": "Role",
+    "image": "https://www.example.com/images/headshot.jpg",
+    "description": "One-line bio.",
+    "sameAs": [
+      "https://www.linkedin.com/in/example",
+      "https://github.com/example"
+    ]
+  }
+}

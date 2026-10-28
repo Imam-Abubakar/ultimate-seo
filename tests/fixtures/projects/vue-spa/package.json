@@ -1,0 +1,14 @@
+{
+  "name": "vue-spa",
+  "private": true,
+  "scripts": {
+    "dev": "x",
+    "build": "y"
+  },
+  "dependencies": {
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}

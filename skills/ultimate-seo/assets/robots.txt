@@ -1,0 +1,32 @@
+# robots.txt — template from the ultimate-seo skill.
+# Replace https://www.example.com with the production origin, and adjust the
+# private paths to match this site. Keep it short: robots.txt controls
+# crawling, not indexing (use `noindex` for pages that must stay out of results).
+
+User-agent: *
+Allow: /
+# Private or duplicate-generating paths only. Never block CSS/JS assets.
+# Check each path is not a real public page first: on a docs site, /api is
+# often the API reference, and /search may be a page you want indexed.
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*?*sort=
+Disallow: /search
+
+# --- AI crawlers ------------------------------------------------------------
+# Default policy (A): allow everything, so the site can be cited in AI answers.
+# Search/answer bots fall under `User-agent: *` above. To opt OUT of model
+# training while staying visible in AI search (policy B), uncomment this group.
+# A named group replaces `*` for that bot, so repeat any private-path rules.
+# See references/ai-search.md for the trade-offs and the full bot list.
+#
+# User-agent: GPTBot
+# User-agent: ClaudeBot
+# User-agent: CCBot
+# User-agent: Google-Extended
+# User-agent: Applebot-Extended
+# User-agent: meta-externalagent
+# User-agent: Bytespider
+# Disallow: /
+
+Sitemap: https://www.example.com/sitemap.xml

@@ -1,0 +1,8 @@
+{
+  "name": "ultimate-seo",
+  "version": "1.0.0",
+  "description": "Production-grade SEO for any web project — Next.js, React, Astro, Nuxt, SvelteKit, plain HTML and more — plus an ULTIMATE-SEO.md playbook of everything left to do.",
+  "author": { "name": "Imam Abubakar" },
+  "license": "MIT",
+  "keywords": ["seo", "technical-seo", "structured-data", "json-ld", "sitemap", "robots-txt", "open-graph", "core-web-vitals", "llms-txt", "ai-search", "claude-skill"]
+}

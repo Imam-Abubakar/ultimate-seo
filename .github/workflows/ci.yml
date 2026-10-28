@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.9", "3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Lint skill package
+        run: python tools/validate_skill.py
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Dogfood the auditor on the clean fixture
+        run: python skills/ultimate-seo/scripts/seo_audit.py tests/fixtures/sites/good --base-url https://www.example.com --fail-under 95
+
+  package:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - run: make package
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ultimate-seo-skill
+          path: dist/ultimate-seo.zip

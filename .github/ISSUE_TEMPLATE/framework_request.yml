@@ -1,0 +1,16 @@
+name: Framework or platform request
+description: Ask for first-class support for a stack
+labels: [framework]
+body:
+  - type: input
+    id: stack
+    attributes:
+      label: Framework / platform
+      placeholder: SolidStart, Qwik City, Remix on Cloudflare, Wix…
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What goes wrong today?
+      description: What did the skill do with this stack, and what would an idiomatic setup look like? Links to the framework's SEO/head docs help a lot.

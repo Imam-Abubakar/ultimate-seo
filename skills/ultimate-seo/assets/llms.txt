@@ -1,0 +1,26 @@
+# Example Brand
+
+> One or two sentences that say what Example Brand is, who it's for, and what makes it different. Write it the way you'd want an AI assistant to describe you.
+
+Key facts an assistant should get right: founded 20XX, based in City, serves who, pricing model, primary product names. Delete anything you can't state confidently.
+
+## Product
+
+- [Home](https://www.example.com/): what the product does, in one line
+- [Pricing](https://www.example.com/pricing): plans and what's included
+- [Features](https://www.example.com/features): the main capabilities
+
+## Docs
+
+- [Getting started](https://www.example.com/docs/getting-started): set up in five minutes
+- [API reference](https://www.example.com/docs/api): endpoints and authentication
+
+## Company
+
+- [About](https://www.example.com/about): team, mission and history
+- [Contact](https://www.example.com/contact): support and sales channels
+
+## Optional
+
+- [Blog](https://www.example.com/blog): announcements and guides
+- [Changelog](https://www.example.com/changelog): release history

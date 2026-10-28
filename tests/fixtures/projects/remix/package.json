@@ -1,0 +1,13 @@
+{
+  "name": "remix",
+  "private": true,
+  "scripts": {
+    "dev": "x",
+    "build": "y"
+  },
+  "dependencies": {
+    "@remix-run/react": "^2.16.0",
+    "@remix-run/node": "^2.16.0"
+  },
+  "devDependencies": {}
+}

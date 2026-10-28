@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: nextjs-blog-full-setup
+expected_outcome: |
+  Next.js App Router metadata is implemented idiomatically (metadataBase, title template, per-post generateMetadata
+  with canonical + Open Graph), app/robots.ts and app/sitemap.ts exist and include every blog post, JSON-LD is
+  added for the site and for posts, and an ULTIMATE-SEO.md playbook specific to this blog exists at the project root.
+context:
+  scaffold_script: place-files.sh

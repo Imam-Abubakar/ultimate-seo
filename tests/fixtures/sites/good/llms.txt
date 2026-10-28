@@ -1,0 +1,5 @@
+# Example Brand
+
+> Project planning for small teams.
+
+- [About](https://www.example.com/about/)

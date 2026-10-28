@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.example.com/#business",
+  "name": "Business name",
+  "url": "https://www.example.com/",
+  "image": "https://www.example.com/images/storefront.jpg",
+  "telephone": "+1-555-555-0100",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Main St",
+    "addressLocality": "City",
+    "addressRegion": "ST",
+    "postalCode": "00000",
+    "addressCountry": "US"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "17:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/example",
+    "https://www.instagram.com/example"
+  ],
+  "_comment": "Use the most specific subtype (Bakery, Restaurant, Dentist, Plumber...). Every value must match the Google Business Profile exactly. Add geo (latitude/longitude) only with real coordinates from the business's map pin. Delete this _comment key."
+}

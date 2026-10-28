@@ -1,0 +1,27 @@
+name: Bug report
+description: The skill or a script did something wrong
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did Claude or the script do, and what did you expect instead?
+    validations:
+      required: true
+  - type: input
+    id: stack
+    attributes:
+      label: Stack
+      description: Framework and version (the first lines of `detect_stack.py .` output are perfect)
+      placeholder: Next.js 16.0.1, App Router, TypeScript
+  - type: textarea
+    id: repro
+    attributes:
+      label: Prompt or command to reproduce
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: Skill version
+      placeholder: 1.0.0

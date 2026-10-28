@@ -1,0 +1,16 @@
+{
+  "name": "ultimate-seo",
+  "owner": { "name": "Imam Abubakar" },
+  "metadata": {
+    "description": "The ultimate-seo Claude skill: complete SEO setup and playbook for any web project."
+  },
+  "plugins": [
+    {
+      "name": "ultimate-seo",
+      "source": "./",
+      "description": "Production-grade SEO for any web project, plus an ULTIMATE-SEO.md playbook.",
+      "version": "1.0.0",
+      "category": "development"
+    }
+  ]
+}

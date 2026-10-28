@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "App name",
+  "url": "https://www.example.com/",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web, iOS, Android",
+  "description": "What the app does in one sentence.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "publisher": {
+    "@id": "https://www.example.com/#organization"
+  },
+  "_comment": "Google shows software rich results only with a real aggregateRating or review. Don't invent one. Delete this _comment key."
+}

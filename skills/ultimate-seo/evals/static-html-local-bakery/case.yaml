@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: static-html-local-bakery
+expected_outcome: |
+  Every HTML page gets a complete, unique head (title, description, canonical, OG/Twitter, viewport, lang),
+  LocalBusiness/Bakery JSON-LD that uses exactly the NAP and hours the user gave, robots.txt, a sitemap.xml
+  (hand-written or via the skill's generate_sitemap.py), and an ULTIMATE-SEO.md focused on local SEO
+  (Google Business Profile, reviews, citations).
+context:
+  scaffold_script: place-files.sh

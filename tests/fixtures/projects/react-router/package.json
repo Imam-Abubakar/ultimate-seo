@@ -1,0 +1,14 @@
+{
+  "name": "react-router",
+  "private": true,
+  "scripts": {
+    "dev": "x",
+    "build": "y"
+  },
+  "dependencies": {
+    "react-router": "^7.9.0"
+  },
+  "devDependencies": {
+    "@react-router/dev": "^7.9.0"
+  }
+}

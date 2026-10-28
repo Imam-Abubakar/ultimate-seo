@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Question exactly as shown on the page?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The answer as shown on the page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Second question?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Second answer."
+      }
+    }
+  ]
+}

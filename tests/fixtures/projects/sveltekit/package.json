@@ -1,0 +1,14 @@
+{
+  "name": "sveltekit",
+  "private": true,
+  "scripts": {
+    "dev": "x",
+    "build": "y"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@sveltejs/kit": "^2.27.0",
+    "@sveltejs/adapter-static": "^3.0.0",
+    "svelte": "^5.0.0"
+  }
+}

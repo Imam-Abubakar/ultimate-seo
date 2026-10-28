@@ -1,0 +1,14 @@
+{
+  "name": "astro",
+  "private": true,
+  "scripts": {
+    "dev": "x",
+    "build": "y"
+  },
+  "dependencies": {
+    "astro": "^5.14.0"
+  },
+  "devDependencies": {
+    "@astrojs/sitemap": "^3.2.0"
+  }
+}
